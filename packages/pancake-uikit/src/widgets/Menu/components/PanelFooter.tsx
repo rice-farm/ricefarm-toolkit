@@ -4,12 +4,17 @@ import { CogIcon } from "../../../components/Svg";
 import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
-import CakePrice from "./CakePrice";
+// import CakePrice from "./CakePrice";
+import RicePrice from "./RicePrice";
 import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
 import LangSelector from "./LangSelector";
 
-interface Props extends PanelProps, PushedProps {}
+// interface Props extends PanelProps, PushedProps {}
+
+interface Props extends PanelProps, PushedProps {
+  coin?: string;
+}
 
 const Container = styled.div`
   flex: none;
@@ -35,14 +40,15 @@ const SocialEntry = styled.div`
 `;
 
 const PanelFooter: React.FC<Props> = ({
+  coin,
   isPushed,
   pushNav,
   toggleTheme,
   isDark,
   cakePriceUsd,
-  currentLang,
-  langs,
-  setLang,
+  // currentLang,
+  // langs,
+  // setLang,
 }) => {
   if (!isPushed) {
     return (
@@ -57,12 +63,12 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-        <CakePrice cakePriceUsd={cakePriceUsd} />
+        <RicePrice coin={coin} ricePriceUsd={cakePriceUsd} />
         <SocialLinks />
       </SocialEntry>
       <SettingsEntry>
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
+        {/* <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} /> */}
       </SettingsEntry>
     </Container>
   );

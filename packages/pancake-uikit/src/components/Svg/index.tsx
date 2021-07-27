@@ -44,7 +44,7 @@ export { default as LaurelLeftIcon } from "./Icons/LaurelLeft";
 export { default as LaurelRightIcon } from "./Icons/LaurelRight";
 export { default as ListViewIcon } from "./Icons/ListView";
 export { default as LoginIcon } from "./Icons/Login";
-export { default as LogoIcon } from "./Icons/Logo";
+export { default as LogoIcon } from "./Icons/RiceRound"; // changed from /Logo
 export { default as LogoRoundIcon } from "./Icons/LogoRound";
 export { default as MathWalletIcon } from "./Icons/MathWallet";
 export { default as LogoutIcon } from "./Icons/Logout";
@@ -68,6 +68,8 @@ export { default as PredictionsIcon } from "../../widgets/Menu/icons/Predictions
 export { default as PrizeIcon } from "./Icons/Prize";
 export { default as ProposalIcon } from "./Icons/Proposal";
 export { default as RemoveIcon } from "./Icons/Remove";
+export { default as RiceRoundIcon } from "./Icons/RiceRound";
+export { default as TeslaSafeRoundIcon } from "./Icons/TeslaSafeRound";
 export { default as VerifiedIcon } from "./Icons/Verified";
 export { default as ProgressBunny } from "./Icons/ProgressBunny";
 export { default as PresentCheckIcon } from "./Icons/PresentCheck";
