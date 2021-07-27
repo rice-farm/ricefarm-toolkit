@@ -43,6 +43,7 @@ export type Colors = {
   primaryDark: string;
   secondary: string;
   tertiary: string;
+  quaternary: string;
   success: string;
   failure: string;
   warning: string;
@@ -60,6 +61,7 @@ export type Colors = {
   textDisabled: string;
   textSubtle: string;
   disabled: string;
+  borderColor:string;
 
   // Gradients
   gradients: Gradients;

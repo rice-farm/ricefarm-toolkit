@@ -14,6 +14,7 @@
     "start": "yarn storybook",
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+    "build:win": "del /f dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
     "format:check": "prettier --check --loglevel error 'src/**/*.{js,jsx,ts,tsx}'",
     "format:write": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
     "storybook": "start-storybook -p 6006",
@@ -34,7 +35,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.3.0"
   },
   "peerDependencies": {
     "react": "^17.0.2",
@@ -46,6 +47,7 @@
     "@popperjs/core": "^2.9.2",
     "@types/lodash": "^4.14.168",
     "@types/styled-system": "^5.1.10",
+    "eslint": "^7.2.0",
     "lodash": "^4.17.20",
     "react-popper": "^2.2.5",
     "react-transition-group": "^4.4.1",
