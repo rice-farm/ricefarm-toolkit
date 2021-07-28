@@ -1,4 +1,7 @@
 {
+  "name": "@ricefarm/uikitv2",
+  "version": "0.45.0",
+  "description": "Set of UI components for ricefarm projects",
   "name": "@pancakeswap/uikit",
   "version": "0.45.0",
   "description": "Set of UI components for pancake projects",
@@ -8,7 +11,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://github.com/rice-farm/ricefarm-toolkit/tree/master/packages/ricefarm-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
