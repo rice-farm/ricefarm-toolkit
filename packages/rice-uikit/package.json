@@ -1,6 +1,6 @@
 {
   "name": "@ricefarm/uikitv2",
-  "version": "0.42.1",
+  "version": "0.45.0",
   "description": "Set of UI components for ricefarm projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://github.com/rice-farm/ricefarm-toolkit/tree/master/packages/ricefarm-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
