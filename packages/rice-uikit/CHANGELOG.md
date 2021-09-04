@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.45.2]() (2021-09-4)
+
+### Features
+
+* rice slider
+
 # [0.45.1]() (2021-07-25)
 
 ### Features
