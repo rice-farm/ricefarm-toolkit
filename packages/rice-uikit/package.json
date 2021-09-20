@@ -1,6 +1,6 @@
 {
   "name": "@ricefarm/uikitv2",
-  "version": "0.45.3",
+  "version": "0.45.4",
   "description": "Set of UI components for ricefarm projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",

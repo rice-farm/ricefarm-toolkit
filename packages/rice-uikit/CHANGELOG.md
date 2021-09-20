@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+
+# [0.45.4]() (2021-09-20)
+
+### Features
+
+* socials telegram config
+
 # [0.45.3]() (2021-09-20)
 
 ### Features

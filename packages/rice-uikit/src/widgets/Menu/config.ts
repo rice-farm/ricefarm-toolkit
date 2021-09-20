@@ -143,7 +143,16 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/fuzionchain",
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/fuzionchain",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/fuzionnews",
+      },
+    ],
   },
   {
     label: "Twitter",
