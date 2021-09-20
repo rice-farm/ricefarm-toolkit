@@ -9,6 +9,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * socials telegram config
+* color shadow update
 
 # [0.45.3]() (2021-09-20)
 
