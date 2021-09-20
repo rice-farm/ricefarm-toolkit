@@ -23,6 +23,7 @@ export * from "./components/Radio";
 export * from "./components/Slider";
 export * from "./components/Skeleton";
 export * from "./components/Spinner";
+export * from "./components/SpinnerCake";
 export * from "./components/Stepper";
 export * from "./components/SubMenu";
 export * from "./components/Svg";

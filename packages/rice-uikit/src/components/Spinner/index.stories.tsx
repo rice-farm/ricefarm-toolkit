@@ -4,9 +4,11 @@ import Spinner from "./Spinner";
 export default {
   title: "Components/Spinner",
   component: Spinner,
-  argTypes: {},
+  argTypes: {
+    size: { control: "number" },
+  },
 };
 
-export const Default: React.FC = () => {
-  return <Spinner size={50} />;
+export const Default: React.FC = (args) => {
+  return <Spinner  {...args} />;
 };

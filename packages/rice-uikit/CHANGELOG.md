@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.45.3]() (2021-09-20)
+
+### Features
+
+* spinner now rice spinner and spinnercake added
+* bunny placeholder is now rice placeholder
+
 # [0.45.2]() (2021-09-4)
 
 ### Features
